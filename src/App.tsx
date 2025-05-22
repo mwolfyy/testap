@@ -65,7 +65,6 @@ function App() {
           <Route path="/services" element={<ServicesPage />} />
           <Route path="/services/:slug" element={<ServiceDetail />} />
           <Route path="/sitemap" element={<HTMLSitemap />} />
-          <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
         <Footer />
       </div>
